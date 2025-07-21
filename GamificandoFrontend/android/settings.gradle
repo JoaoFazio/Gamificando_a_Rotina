@@ -4,5 +4,5 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autoli
 rootProject.name = 'GamificandoFrontend'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
-apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
-applyNativeModulesSettings(settings)
+//apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+//applyNativeModulesSettings(settings)
