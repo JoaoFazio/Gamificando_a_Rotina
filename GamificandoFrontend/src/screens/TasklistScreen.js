@@ -13,8 +13,8 @@ import {
   ActivityIndicator, // Para mostrar um feedback de carregamento
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native'; // Para recarregar os dados quando a tela volta ao foco
-import { Ionicons } from '@expo/vector-icons';
-import API_BASE_URL from './src/api/api'; // Importa a URL base da API
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import API_BASE_URL from '../api/api';
 
 const TaskListScreen = ({ navigation }) => {
   const [tasks, setTasks] = useState([]);

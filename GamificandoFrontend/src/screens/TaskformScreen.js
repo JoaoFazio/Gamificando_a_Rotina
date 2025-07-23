@@ -15,7 +15,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import API_BASE_URL from './src/api/api'; // Importa a URL base da API
+import API_BASE_URL from '../api/api';
 
 const TaskFormScreen = ({ route, navigation }) => {
   const existingTask = route.params?.task; // Recebe a tarefa se estiver no modo de edição
@@ -132,4 +132,5 @@ const formStyles = StyleSheet.create({
     buttonText: { color: '#fff', fontSize: 18, fontWeight: 'bold' },
 });
 
+export default TaskFormScreen;
 // Não é necessário exportar como default aqui, pois o import no App.js já faz isso.
